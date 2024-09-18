@@ -1,0 +1,4 @@
+MSH|^~\&|Simpson-Hayden|Cook-Parker|Hawkins-Stephens|Kelly, Reyes and Lewis|20240918194635||ORU^R01|787113|P|2.3
+PID|1||78907813^^^Hale-Allen^MR||Williams^Lance||19630201|F||04312 Aguirre Street Suite 893 Alexisport, MN 67276|(969)625-7681x6247|||899-20-8807
+OBR|1||64114^LAB|0001^COMPLETE BLOOD COUNT^L|202409181946||||||||||Santiago-Rice^LAB
+OBX|1|NM|0002^WBC^L|4.5|10^9/L|4.0-10.0|N|||F

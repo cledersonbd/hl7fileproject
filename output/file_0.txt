@@ -1,0 +1,4 @@
+MSH|^~\&|Cortez, Burns and Robinson|Miller, Nash and David|Allen, Matthews and Moore|Velez, Haley and Green|20240918194635||ORU^R01|435980|P|2.3
+PID|1||59815975^^^Burns, Allen and Townsend^MR||Nichols^Nicole||19390719|M||450 Mcdaniel Shore Apt. 946 Garyberg, FM 95660|629.350.6030x757|||744-32-7195
+OBR|1||43079^LAB|0001^COMPLETE BLOOD COUNT^L|202409181946||||||||||Wallace, Franklin and Turner^LAB
+OBX|1|NM|0002^WBC^L|6.9|10^9/L|4.0-10.0|N|||F

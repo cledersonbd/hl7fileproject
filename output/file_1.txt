@@ -1,0 +1,4 @@
+MSH|^~\&|Butler, Medina and Gray|Scott-Thomas|Morris, Reed and Lindsey|Howe LLC|20240918194635||ORU^R01|357650|P|2.3
+PID|1||17918991^^^Walker, Johnson and Martin^MR||Morgan^Wanda||20231204|M||229 Christian Pass Richardmouth, MT 77209|+1-660-963-2456x011|||646-14-5151
+OBR|1||65625^LAB|0001^COMPLETE BLOOD COUNT^L|202409181946||||||||||Parker Ltd^LAB
+OBX|1|NM|0002^WBC^L|7.2|10^9/L|4.0-10.0|N|||F

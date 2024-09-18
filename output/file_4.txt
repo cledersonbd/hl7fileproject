@@ -1,0 +1,4 @@
+MSH|^~\&|Griffin-Bryant|Ruiz and Sons|Miller, Medina and Short|Gray-Newman|20240918194635||ORU^R01|650418|P|2.3
+PID|1||96070199^^^Scott, Tucker and Dunlap^MR||Roberts^Jessica||20081002|M||6984 Tyrone Turnpike Apt. 283 Port Stephenburgh, MH 95913|940.713.4066|||092-19-6617
+OBR|1||94542^LAB|0001^COMPLETE BLOOD COUNT^L|202409181946||||||||||Beck-Vasquez^LAB
+OBX|1|NM|0002^WBC^L|9.7|10^9/L|4.0-10.0|N|||F
