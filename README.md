@@ -3,6 +3,8 @@
 </p>
 
 > Educational implementation of HL7 file reader and generator
+> Project built in simple Python just to play around with the format
+> More information about HL7 files: https://en.wikipedia.org/wiki/Health_Level_7
 
 ## Dependencies
 ```sh
