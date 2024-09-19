@@ -1,4 +1,4 @@
-MSH|^~\&|Simpson-Hayden|Cook-Parker|Hawkins-Stephens|Kelly, Reyes and Lewis|20240918194635||ORU^R01|787113|P|2.3
-PID|1||78907813^^^Hale-Allen^MR||Williams^Lance||19630201|F||04312 Aguirre Street Suite 893 Alexisport, MN 67276|(969)625-7681x6247|||899-20-8807
-OBR|1||64114^LAB|0001^COMPLETE BLOOD COUNT^L|202409181946||||||||||Santiago-Rice^LAB
+MSH|^~\&|Parsons, Miller and Rodriguez|Smith and Sons|Rojas LLC|Griffin-Smith|20240918211242||ORU^R01|616223|P|2.3
+PID|1||48759453^^^Williams, Mendez and Phillips^MR||Holt^Pamela||19450707|F||166 Kenneth Points Port Stephanie, MI 62247|+1-260-465-9694|||309-57-2100
+OBR|1||10187^LAB|0001^COMPLETE BLOOD COUNT^L|202409182112||||||||||Gillespie, Brown and Clark^LAB
 OBX|1|NM|0002^WBC^L|4.5|10^9/L|4.0-10.0|N|||F

@@ -1,6 +1,6 @@
+from hl7lib.HL7File import HL7File
 
-
-class HL7Reader:
+class HL7Reader(HL7File):
     
     DELIMITER = '|'
     
@@ -36,27 +36,42 @@ class HL7Reader:
         # "Z-segments": {"description": "Custom Segments"},
     }
     
-    def __init__(self, hl7_string):
-        if not hl7_string:
-            raise ValueError('Invalid HL7 String')
+    def __init__(self, content):
+        super().__init__()
         
-        self.parse(hl7_string)
+        if not content:
+            raise ValueError('Invalid HL7')
+        self.parse(content)
     
-
-    def parse(self, text_hl7: str):
-        lines = text_hl7.splitlines()
+    
+    def is_valid(self):
+        # considering a valid HL7 file if it has these 4 sections
+        return self.msh and self.pid and self.obr and self.obx
+    
+    def parse(self, content: str | list):
         
-        for line in lines:
+        if isinstance(content, str):
+            self.lines = content.splitlines()
+        else:
+            self.lines = content
+        
+        for line in self.lines:
             fields = line.split(self.DELIMITER)
             
-            
-            if fields[0] == 'MSH':
-                subfields = fields[8].split('^')
-                print(f'Type: {subfields[0]} - Event: {subfields[1]}') 
-                
-            print(f'Found {fields[0]} segment', 
-                  f'meaning \'{self.segments[fields[0]]['description']}\'')
-
-if __name__ == '__main__':
+            match fields[0]:
+                case 'MSH':
+                    self.msh = line
+                case 'PID':
+                    self.pid = line
+                case 'OBR':
+                    self.obr = line
+                case 'OBX':
+                    self.obx = line
+                case _:
+                    pass
+        
+        
+        return self.is_valid()
     
-    reader = HL7Reader()
+if __name__ == '__main__':
+    pass

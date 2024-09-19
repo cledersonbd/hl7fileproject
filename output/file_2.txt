@@ -1,4 +1,4 @@
-MSH|^~\&|Taylor, Herman and Lee|Gonzalez-Franco|Palmer, Martin and Vasquez|Bowers-Gonzalez|20240918194635||ORU^R01|123332|P|2.3
-PID|1||29169930^^^Jackson-Hughes^MR||Atkins^Heather||19480310|F||920 Clarke Vista Suite 839 Westtown, FL 50650|+1-475-360-6018|||053-05-0182
-OBR|1||34718^LAB|0001^COMPLETE BLOOD COUNT^L|202409181946||||||||||White-Dalton^LAB
-OBX|1|NM|0002^WBC^L|5.3|10^9/L|4.0-10.0|N|||F
+MSH|^~\&|King, Jenkins and Palmer|Whitehead Group|Baker LLC|Jackson, Gomez and Carter|20240918211242||ORU^R01|456835|P|2.3
+PID|1||28455043^^^Clark-Davis^MR||Figueroa^Jacqueline||19561220|M||0475 Moore Mountain Suite 340 East Tammyside, DE 63018|(960)981-9030x1162|||693-52-8721
+OBR|1||21053^LAB|0001^COMPLETE BLOOD COUNT^L|202409182112||||||||||Cantrell, Strong and Moore^LAB
+OBX|1|NM|0002^WBC^L|6.5|10^9/L|4.0-10.0|N|||F

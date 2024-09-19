@@ -1,14 +1,12 @@
 import datetime
 import random
 from faker import Faker
+from hl7lib.HL7File import HL7File
 
-class HL7Generator:
+class HL7Generator(HL7File):
     
     def __init__(self, fake=None):
-        self.msh = None
-        self.pid = None
-        self.obr = None
-        self.obx = None 
+        super().__init__()
         self.fake = fake
         
     def get_hl7_str(self):
