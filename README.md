@@ -4,6 +4,16 @@
 
 > Educational implementation of HL7 file reader and generator
 
+## Dependencies
+```sh
+Faker==28.4.1
+mypy==1.11.2
+mypy-extensions==1.0.0
+python-dateutil==2.9.0.post0
+six==1.16.0
+typing_extensions==4.12.2
+```
+
 ## Install
 
 ```sh
